@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Build Your House</title>
+    <!-- daisy ui link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/101d3dba30.js" crossorigin="anonymous"></script>
     <!-- tailwind css -->
@@ -161,11 +163,68 @@
          </div>
         </section>
         <!-- latest portfolio -->
-         
+         <section class="md:mx-10 mx-3">
+            <div>
+                <div class="text-center pt-20 ">
+                    <button class="text-gray-800 font-semibold bg-[#abef5f33]  py-2 px-3 rounded-3xl justify-center items-center mx-auto">
+                        <i class="fa-solid fa-arrow-right"> </i> <span>Explore our Latest works</span>
+                    </button>
+                   </div>
+                   <h1 class="text-center text-4xl mt-3 font-bold text-[#212121]">Our Latest Portfolio</h1>
+                   <p class="text-center text-[#494949] mt-5 px-4 mx-auto lg:px-0 lg:max-w-[674px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                   <div class="grid md:grid-cols-4 grid-cols-1 gap-5 mt-5">
+                    <div class="border border-[#E9E9E9] rounded-lg flex max-sm:flex-col p-3 gap-3 md:col-span-3">
+                        <figure>
+                            <img class="rounded-lg h-full max-sm:w-96" src="./images/img1.png" alt="">
+                        </figure>
+                        <div>
+                            <h3 class="md:text-2xl font-extrabold">Commercial</h3>
+                            <p class="text-[#737373] my-3">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                            <button class="">
+                               <span class="font-extrabold md:text-xl "> View Details</span>
+                              <span class=" z-10">
+                                <i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-2 h-8 w-8 p-2  bg-[#ABEF5F]"></i>
+                              </span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="border border-[#E9E9E9] rounded-lg flex p-3 gap-3">
+                        <figure>
+                            <img class="rounded-lg max-sm:w-96" src="./images/img2.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="border border-[#E9E9E9] rounded-lg flex p-3 gap-3">
+                        <figure>
+                            <img class="rounded-lg max-sm:w-96" src="./images/img3.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="border border-[#E9E9E9] rounded-lg flex max-sm:flex-col p-3 gap-3 md:col-span-2">
+                        <figure>
+                            <img class="rounded-lg h-full md:w-[500px] max-sm:w-96" src="./images/img4.png" alt="">
+                        </figure>
+                        <div>
+                            <h3 class="md:text-2xl font-extrabold">Commercial</h3>
+                            <p class="text-[#737373] my-2">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                            <button class="">
+                                <span class="font-extrabold md:text-xl "> View Details</span>
+                               <span class=" z-10">
+                                 <i class="fa-solid fa-arrow-right -rotate-45 rounded-full p-2 h-8 w-8 p-2  bg-[#ABEF5F]"></i>
+                               </span>
+                             </button>
+                        </div>
+                    </div>
+                    <div class="border border-[#E9E9E9] rounded-lg flex p-3 gap-3">
+                        <figure class="w-">
+                            <img class="rounded-lg max-sm:w-96" src="./images/img5.png" alt="">
+                        </figure>
+                    </div>
+                   </div>
+            </div>
+         </section>
 
         <!-- input information section -->
          <section>
-            <div class="bg-[url('./images/bg.jpg')] lg:h-[800px] bg-cover bg-center  mt-3">
+            <div class="bg-[url('./images/bg.jpg')] lg:h-[800px] bg-cover bg-center  mt-6">
                <div class="text-center pt-20 ">
                 <button class="text-gray-800 font-semibold bg-[#abef5f33]  py-2 px-3 rounded-3xl justify-center items-center mx-auto">
                     <i class="fa-solid fa-arrow-right"></i>Let’s Connect
@@ -189,14 +248,43 @@
                     <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full p-2 h-8 w-8  text-white p-2 bg-black"></i>
                 </button>
                </div>
-             
-             
-
-            </div>
-
          </section>
+      <!-- Chalanging part extra part -->
+     <section class="my-8 lg:mx-10 mx-3">
+        <h1 class="text-center text-4xl mt-3 font-bold text-[#212121]">FAQs Regarding Real Estate
+        </h1>
+        <div class="mt-5 flex flex-col gap-5">
+            <div class="collapse collapse-arrow bg-base-200 ">
+                <div class="collapse-title text-xl font-medium">How many real estate companies operate in Bangladesh?</div>
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-content">
+                  <p>Bangladesh hosts over 500+ active real estate firms.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Is Bangladesh conducive for real estate investments?</div>
+                <div class="collapse-content">
+                  <p>Bangladesh offers immense potential with its substantial GDP contribution, attractive profitability, and abundant land resources.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">What does real estate development entail?</div>
+                <div class="collapse-content">
+                  <p>Real estate development involves acquiring properties, developing them, and selling them in a planned manner.</p>
+                </div>
+              </div>
+              <div class="collapse collapse-arrow bg-base-200">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Which is the oldest real estate company in Bangladesh?</div>
+                <div class="collapse-content">
+                  <p>Concord Real Estate is the oldest real estate company in Bangladesh. It was established in 1973 and is one of the earliest players in the industry.</p>
+                </div>
+              </div>
+        </div>
+     </section>
       </main>
-
       <!-- footer -->
        <footer class="text-center bg-[#1C1C1C] pt-20">
         <div>
@@ -205,7 +293,7 @@
                <span class="text-3xl"> Rinterio</span>
             </button>
             <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
-            <ul class="flex mx-auto justify-center text-gray-200 gap-6 lg:gap-28 mt-12 text-sm font-light">
+            <ul class="flex mx-auto justify-center text-gray-200 gap-4 px-3 lg:gap-28 mt-12 text-sm font-light">
                 <li>Home</li>
                 <li>Services</li>
                 <li>Portfolio</li>

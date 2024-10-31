@@ -26,16 +26,16 @@
     
 
 </head>
-<body>
+<body class="max-sm:mx-3">
     <!-- header  -->
     <header class="">
-    <nav class="flex items-center max-w-screen-lg mx-auto  bg-amber-100 bg-opacity-10  justify-between">
+    <nav class="flex items-center md:max-w-screen-lg lg:max-w-screen-lg mx-auto  bg-amber-100 bg-opacity-10  justify-between">
         <div class="flex  items-center">
             <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full p-3 h-10 w-10   bg-[#ABEF5F]"></i>
             <h3 class="text-3xl">Rinterio</h3>
         </div>
 
-        <div>
+        <div class="hidden md:block">
             <ul class="text-sm font-normal text-[#737373] flex gap-5">
                 <li class="font-bold text-[#494949]">Home</li>
                 <li>Services</li>
@@ -44,7 +44,7 @@
                 <li>Contact Us</li>
             </ul>
         </div>
-        <div class="">
+        <div class="hidden md:block">
             <i class="fa-solid fa-magnifying-glass text-[#737373] rounded-full p-2 bg-white mr-2"></i>
             <i class="fa-solid fa-cart-shopping text-[#737373] rounded-full p-2 bg-white mr-2"></i>
             <button class=" bg-[#ABEF5F] p-2 rounded-3xl">
@@ -52,6 +52,9 @@
                 <i class="fa-solid fa-arrow-right  -rotate-45 rounded-full p-2 h-8 w-8  text-white p-2 bg-black"></i>
             </button>
 
+        </div>
+        <div class="flex block md:hidden lg:hidden text-[#737373] bg-gray-100 justify-center  items-center h-10 w-10 rounded-full p-3  border-gray-600">
+            <i class="fa-solid fa-bars"></i>
         </div>
 
     </nav>
@@ -77,8 +80,47 @@
     </header>
 
      <!-- main -->
-      <main>
+      <main  class="">
+       <section class="bg-[#F4F4F4] mt-16">
+        <img class="ml-8 pt-8" src="./images/Vector.png" alt="">
+        <!-- design div -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-9 lg:max-w-screen-lg mx-auto">
+            <!-- design text -->
+            <div class="gap-7">
+                <button class="text-gray-800 font-semibold bg-white py-2 gap-2 rounded-3xl px-5">
+                    <i class="fa-solid fa-arrow-right"></i>About Us
+                </button>
+            
+            <h1 class="text-4xl font-bold py-3">
+                We design thoughtful, <br> liveable spaces
+            </h1>    
+            <p class="text-gray-800">The barn house captivates with its blend of rustic charm and <br>
+                modern sophistication, featuring weathered wood, sleek metal accents.</p>
+                <!-- box 1 -->
+                <div class="flex bg-white gap-7 p-6 lg:w-[500px] rounded-2xl my-3">
+                    <img src="./images/commercial.png" alt="">
+                    <div class="">
+                        <h3 class="text-xl font-bold text-[#494949]">Commercial</h3>
+                        <p class="text-gray-500">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                </div>
+                <!-- box 2 -->
+                <div class="flex bg-white gap-7 p-6 lg:w-[500px] rounded-2xl ">
+                    <img src="./images/residential.png" alt="">
+                    <div class="">
+                        <h3 class="text-xl font-bold text-[#494949]">Residential</h3>
+                        <p class="text-gray-500">The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- design img -->
+            <div>
+                <img src="./images/Rectangle.png" alt="">
+            </div>
+           
 
+        </div>
+       </section>
       </main>
 
       <!-- footer -->
